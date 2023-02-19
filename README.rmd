@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## What is *refreshr*?
 
-*refreshr* allows you to create dataframes/tables that are refreshable. That means they have information about their (online) data source baked into them (as attributes) and can be updated from that source using a simple call of the `refresh()` function. The dataframe can the be shared with coworkers (e.g. as an RData file) and the recpient does not need to care about how he can update the data. If he wants the data updated from the original source *refreshr* will do the job for him. 
+*refreshr* allows you to create dataframes/tables that are refreshable. That means they have information about their (online) data source baked into them (as attributes) and can be updated from that source using a simple call of the `refresh()` function. The dataframe can then be shared with coworkers (e.g. as an RData file) and the recipient does not need to care about how he can update the data. If he wants the data updated from the original source *refreshr* will do the job for him. 
 
 
 ## How to make a dataframe/table refreshable?
